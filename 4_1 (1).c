@@ -39,7 +39,7 @@ void time(int time[4])// описание функции
 			strin[2] = min / 10;
 			strin[3] = min % 10;
 			printf("%d%d:%d%d", strin[0], strin[1], strin[2], strin[3]);
-			break;
+			break;//kommentari
 		}
 		min++;//передвижение на минуту
 	}
